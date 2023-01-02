@@ -820,7 +820,7 @@ $ gatttool -b 08:3A:F2:AA:12:AA --characteristics --start 0x53 --end 0x54
 handle = 0x0053, char properties = 0x9b, char value handle = 0x0054, uuid = 0000ff16-0000-1000-8000-00805f9b34fb
 ```
 
-The properties value 0x9b is `1001 1011` in binary. Looking at the [property flags](https://docs.silabs.com/bluetooth/3.2/group-sl-bt-gattdb-characteristic-properties), it appears to have NOTIFY (0x10), RELIABLE_WRITE (0x101), WRITE (0x8), and READ (0x2).
+The properties value 0x9b is `1001 1011` in binary. Looking at the [property flags](https://docs.silabs.com/bluetooth/3.2/group-sl-bt-gattdb-characteristic-properties), it appears to have EXTENDED PROPERTIES (0x80), NOTIFY (0x10), WRITE (0x8), and READ (0x2). Possibly also RELIABLE_WRITE (0x101)?
 
 ```sh
 # get part of flag from write/notify
