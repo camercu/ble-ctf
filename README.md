@@ -849,7 +849,7 @@ Characteristic value was written successfully
 
 Figure out the authors twitter handle and do what 0x0056 tells you to do!
 
-The author's GitHub username is "hackgnar", and his name is Ryan Holeman (I got the challenge files/hints from his GitHub). Googling Twitter for his real name, I don't find any results that look promising. But googling Twitter for "hackgnar" turns up his profile: [@hackgnar](https://twitter.com/hackgnar).
+The author's GitHub username is "hackgnar", and his name is Ryan Holeman (I got the challenge files/hints from his GitHub, which also has his name). Googling Twitter for his real name, I don't find any results that look promising. But googling Twitter for "hackgnar" turns up his profile: [@hackgnar](https://twitter.com/hackgnar). [His website](https://www.hackgnar.com/) also points to his twitter handle.
 
 ```sh
 # get instructions
