@@ -1,7 +1,7 @@
-# Bluetooth LE CTFs
-[BLE CTF Github](https://github.com/hackgnar/ble_ctf)
+# Bluetooth LE CTF
+[BLE CTF Github](https://github.com/hackgnar/ble_ctf) - Challenge files.
 
-[Advanced BLE CTF Github](https://github.com/hackgnar/ble_ctf_infinity)
+[Advanced BLE CTF Github](https://github.com/hackgnar/ble_ctf_infinity) - For next time.
 
 The CTFs were part of the Workshops at DEF CON 29 (2021). To do the challenges, you need to have an ESP32 board with the CTF firmware on it. You also need a Linux box with the Bluez tools installed.
 
