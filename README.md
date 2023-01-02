@@ -582,6 +582,8 @@ $ gatttool -b 08:3A:F2:AA:12:AA -a 0x2c --char-write-req -n $(echo -n "c7b86dd12
 Characteristic value was written successfully
 ```
 
+Supposedly, the value you write specifies what to listen for, according to a [different writeup](https://rossmarks.uk/blog/ble-ctf-walkthrough/) that was linked from the first one I found. 0100 - notifications, 0200 - indications, 0300 - both. However, I didn't have trouble getting notifications and indications with the random "69" I used.
+
 
 
 
